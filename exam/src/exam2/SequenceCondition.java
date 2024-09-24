@@ -2,12 +2,11 @@ package exam2;
 
 public class SequenceCondition implements DiscountCondition{
 
-    private final int sequence;
+    private int sequence;
 
     public SequenceCondition(int sequence) {
         this.sequence = sequence;
     }
-
 
     @Override
     public boolean isSatisfiedBy(Screening screening) {

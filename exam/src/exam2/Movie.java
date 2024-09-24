@@ -1,14 +1,15 @@
 package exam2;
 
 import java.time.Duration;
+import java.time.LocalDateTime;
 
 public class Movie {
     private String title;
     private Duration runningTime;
     private Money fee;
-    private DefaultDiscountPolicy discountPolicy;
+    private DiscountPolicy discountPolicy;
 
-    public Movie(String title, Duration runningTime, Money fee, DefaultDiscountPolicy discountPolicy) {
+    public Movie(String title, Duration runningTime, Money fee, DiscountPolicy discountPolicy) {
         this.title = title;
         this.runningTime = runningTime;
         this.fee = fee;

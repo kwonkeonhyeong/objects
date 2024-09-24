@@ -1,5 +1,6 @@
 package exam1;
 
+// 소극장
 public class Theater {
     private TicketSeller tickerSeller;
 

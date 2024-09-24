@@ -1,6 +1,7 @@
 package exam2;
 
-public class PercentDiscountPolicy extends DefaultDiscountPolicy {
+public class PercentDiscountPolicy extends DiscountPolicy{
+
     private double percent;
 
     public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {

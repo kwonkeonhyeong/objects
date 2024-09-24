@@ -1,7 +1,5 @@
 package exam2;
 
-import java.beans.Customizer;
-
 public class Reservation {
     private Customer customer;
     private Screening screening;
